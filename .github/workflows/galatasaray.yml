@@ -18,6 +18,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: python test_api.py
+      - name: Test API connection
+        run: python test_api.py
 
-      - run: python main.py
+      - name: Run Galatasaray tracker
+        run: python main.py
