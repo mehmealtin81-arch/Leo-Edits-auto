@@ -1,6 +1,6 @@
 name: Galatasaray Match Tracker
 
-on:
+'on':
   workflow_dispatch:
   schedule:
     - cron: "*/5 * * * *"
